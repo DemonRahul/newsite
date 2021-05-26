@@ -1,0 +1,72 @@
+body{
+    font-family: cursive;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.img1,.img2,.img3,.img4{
+    
+    background-position:center;
+    background-size: cover;
+    opacity: 0.8;
+    position: relative;
+    background-attachment: fixed;
+}
+.img1{
+    background-image: url('https://i.postimg.cc/ZRdn3qJb/build1.jpg');
+    height:720px;
+}
+.img2{
+    background-image: url('https://i.postimg.cc/rsGpnYd7/lig.jpg');
+    height: 500px;
+}
+.img3{
+    background-image: url('https://i.postimg.cc/FF01H1PG/build3.jpg');
+    height: 500px;
+    
+}
+.img4{
+    background-image: url('https://i.postimg.cc/X78J9m6C/build4.jpg');
+    height: 600px;
+}
+.text,.text2,.text3,.text4{
+    position:absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+.box{
+    transition: letter-spacing 2s,padding 2s;
+    background-color: rgb(44, 12, 12);
+    letter-spacing: 8px;
+    padding: 12px;
+    border-radius: 6px;
+    opacity: 0.8;
+}
+#box3{
+  background-color:white;
+  opacity:0.4;
+  color:black;
+}
+.box:hover{
+    letter-spacing: 13px;
+    padding: 18px;
+}
+.sec1{
+      background-color: rgb(241, 240, 234);
+      padding: 30px;
+      text-align: center;
+}
+.sec2,.sec3{
+    background-color: rgba(29, 28, 28, 0.884);
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
